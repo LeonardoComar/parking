@@ -6,7 +6,7 @@
   <div class="form-inputs">
     <%= f.input :name %>
     <%= f.input :professional_register %>
-    <%= f.input :type, collection: Employee.types.map { |s| [s.titleize, s] } %>
+    <%= f.input :type_employee, collection: Employee.type_employees.map { |s| [I18n.t(s, scope: %i[str_enum_attribute employee type_employee]), s] } %>
     <%= f.input :status, as: :hidden  %>
   </div>
 

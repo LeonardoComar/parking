@@ -1,9 +1,9 @@
-<h1>New employee</h1>
+<h1><%= I18n.t(:new, scope: [:titles], object_name: @employee.model_name.human) %></h1>
 
 <%= render "form", employee: @employee %>
 
 <br>
 
 <div>
-  <%= link_to "Back to employees", employees_path %>
+  <%= link_to I18n.t(:back, scope: [:buttons]), employees_path %>
 </div>

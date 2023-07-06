@@ -1,0 +1,33 @@
+pt-BR:
+  activerecord:
+    models:
+      employee: 
+        one: Empregado
+        other: Empregados
+    attributes:
+      employee:
+        name: Nome
+        professional_register: Registro Profissional
+        type_employee: Tipo
+        status: Status
+  str_enum_attribute:
+    employee:
+      type_employee:
+        attendant: Atendente
+        valet_parking: Manobrista
+  # dictionary
+  hello_world: "Olá, Mundo!"
+  titles:
+    new: "Novo %{object_name}"
+  buttons:
+    save: Salvar
+    back: Voltar
+  # Simple form
+  simple_form:
+    "yes": 'Sim'
+    "no": 'Não'
+    required:
+      text: 'obrigatório'
+      mark: '*'
+    error_notification:
+      default_message: "Por Favor, verifique os erros abaixo:"

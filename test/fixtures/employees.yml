@@ -3,11 +3,11 @@
 one:
   name: MyString
   professional_register: MyString
-  type: 
+  type_employee: 
   status: MyString
 
 two:
   name: MyString
   professional_register: MyString
-  type: 
+  type_employee: 
   status: MyString

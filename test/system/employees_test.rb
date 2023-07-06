@@ -17,7 +17,7 @@ class EmployeesTest < ApplicationSystemTestCase
     fill_in "Name", with: @employee.name
     fill_in "Professional register", with: @employee.professional_register
     fill_in "Status", with: @employee.status
-    fill_in "Type", with: @employee.type
+    fill_in "Type", with: @employee.type_employee
     click_on "Create Employee"
 
     assert_text "Employee was successfully created"
@@ -31,7 +31,7 @@ class EmployeesTest < ApplicationSystemTestCase
     fill_in "Name", with: @employee.name
     fill_in "Professional register", with: @employee.professional_register
     fill_in "Status", with: @employee.status
-    fill_in "Type", with: @employee.type
+    fill_in "Type", with: @employee.type_employee
     click_on "Update Employee"
 
     assert_text "Employee was successfully updated"
